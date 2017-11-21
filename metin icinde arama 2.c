@@ -1,3 +1,12 @@
+/*
+Metin içinde girilen kelimeyi arama
+
+Girdiler:
+->Merhababababa
+->ba
+Çıktı: 4tane bulundu.
+*/
+
 #include <stdio.h>
 #include <conio.h>
 int main()
