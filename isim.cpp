@@ -1,3 +1,6 @@
+/*
+Girilen 10 ismi tersten sıralayan program.
+*/
 #include <stdio.h>
 #include <conio.h>
 #include <string.h>
