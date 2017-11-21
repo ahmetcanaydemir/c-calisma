@@ -1,3 +1,6 @@
+/*
+1'den n'e kadar olan sayıların 1 / i! şeklindeki toplamlarını alan program
+*/
 #include <stdio.h>
 #include <conio.h>
 
