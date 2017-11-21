@@ -1,3 +1,6 @@
+/*
+Rastgele iki dizinin ilk dizinin elemanlarının toplamı ile diğer dizinin elemanlarının çarpımını toplayan program.
+*/
 #include <stdio.h>
 #include <conio.h>
 #include <time.h>
