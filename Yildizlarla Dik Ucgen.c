@@ -1,6 +1,6 @@
 /* Yıldızlar ile sağa dayalı dik ücgen yapmak
    
-    		  *
+    		 *
     	   **
     	  ***
     	 ****
