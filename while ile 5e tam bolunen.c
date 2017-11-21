@@ -5,19 +5,17 @@
 #include <stdio.h>
 int main()
 {
-	int i=200;
-	while(i>=0)
-	{
-		if(i%5==0)
-		{
-			printf("%d ",i);
-		}
-		i--;
-	}
-  
-  return 0;
+    int i=200;
+    while(i>=0)
+    {
+        if(i%5==0)
+        {
+            printf("%d ",i);
+        }
+        i--;
+    }
+    return 0;
 }
-
 
 
 
