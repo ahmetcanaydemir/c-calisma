@@ -1,12 +1,12 @@
 /* Yıldızlar ile sağa dayalı dik ücgen yapmak
    
-    		 *
-    	   **
-    	  ***
-    	 ****
-    	*****
-     ******
-    *******
+         *
+        **
+       ***
+      ****
+     *****
+    ******
+   *******
 */
       		 	
 #include <stdio.h>
