@@ -1,3 +1,9 @@
+/*
+Girilen kelimeyi tersten yazdıran program.
+
+Girdi: Kelime
+Çıktı: emileK
+*/
 #include <stdio.h>
 #include <conio.h>
 #include <string.h>
