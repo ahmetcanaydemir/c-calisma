@@ -1,3 +1,13 @@
+/*
+Girilen ismi çıktıdaki gibi yazdıran program.
+Girdi: Ahmet
+Çıktı:
+Ahmet
+Ahme
+Ahm
+Ah
+A
+*/
 #include <stdio.h>
 #include <conio.h>
 #include <string.h>
