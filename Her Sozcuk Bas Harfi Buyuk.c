@@ -1,3 +1,8 @@
+/*
+Cümledeki her sözcüğün ilk harfini büyük yapan program.
+
+Örnek: Bu Örnek Bir Cümledir. Bu Da Diğer Bir Cümle.
+*/
 #include <stdio.h>
 #include <conio.h>
 int main()
