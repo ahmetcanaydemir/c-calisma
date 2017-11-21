@@ -1,3 +1,12 @@
+/*
+Girilen sayının palindrom olup olmadığını kontrol eden program.
+
+Girdi: 12321
+Çıktı: Palindrom
+
+Girdi: 324
+Çıktı: degil
+*/
 #include <stdio.h>
 int main()
 {
@@ -25,7 +34,7 @@ int main()
 		a=0;
 	}
 	if(a==1)
-	printf("polindrom");
+	printf("Palindrom");
 
 	if(a==0)
 	printf("degil");
