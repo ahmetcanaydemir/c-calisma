@@ -1,3 +1,11 @@
+/*
+Girilen metinde 3 karakter arama.
+
+Girdiler:
+->windows'ta dir komutu güzeldir.
+->dir
+Çıktı: 2 kadar bulundu
+*/
 #include <stdio.h>
 #include <conio.h>
 int main()
