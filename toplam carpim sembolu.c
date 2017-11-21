@@ -1,3 +1,6 @@
+/*
+Toplam ve çarpım işlemi yapıp sonucu toplamak.
+*/
 #include <stdio.h>
 #include <conio.h>
 int main()
@@ -9,23 +12,14 @@ int main()
     for(i=0;i<15;i++)
     {
         a[i]=i;
+        atop+=i;
     }
 
-    for(i=0;i<8;i++)
+    for(i=1;i<=8;i++)
     {
-        b[i]=i+1;
-    }
-
-    for(i=0;i<15;i++)
-    {
-        atop+=a[i];
-    }
-
-    for(j=0;j<8;j++)
-    {
+        b[i]=i;
         btop*=b[j];
     }
-
     toplam=atop+btop;
 
     printf("%d + %d = %d",atop,btop,toplam);
