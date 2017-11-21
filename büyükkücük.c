@@ -1,3 +1,9 @@
+/*
+Cümledeki büyük harfleri küçük küçük harfleri büyük yapan program.
+
+Girdi: Merhaba Dünya
+Çıktı: mERHABA dÜNYA
+*/
 #include <stdio.h>
 #include <conio.h>
 #include <string.h>
