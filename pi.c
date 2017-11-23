@@ -1,5 +1,5 @@
 /*
-pi sayısının ilk 800 basamağını hesaplayan program
+pi sayÄ±sÄ±nÄ±n ilk 800 basamaÄŸÄ±nÄ± hesaplayan program
 */
 
 #include <stdio.h>
