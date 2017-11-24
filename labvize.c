@@ -14,8 +14,7 @@ int main()
         {
             if(i%j==0)
             {
-                bolunen[sayac]=j;
-                toplam+=j;
+                toplam+=bolunen[sayac]=j;
                 sayac++;
             }
         }
