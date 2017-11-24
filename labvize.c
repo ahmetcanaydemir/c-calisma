@@ -10,11 +10,12 @@ int main()
     for(i=10; i<100; i++)
     {
         int sayac=0, toplam=0, bolunen[3];
-        for(j=i-1; j>0 && sayac<3; j--)
+        for(j=i-1;j>0 && sayac<3; j--)
         {
             if(i%j==0)
             {
-                bolunen[sayac]=toplam+=j;
+                bolunen[sayac]=j;
+                toplam+=j;
                 sayac++;
             }
         }
