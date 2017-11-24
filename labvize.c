@@ -7,29 +7,21 @@ Son 3 tam böleninin toplamı kendisine eşit olan iki basamaklı sayıları yaz
 int main()
 {
     int i,j;
-    int bolunen1, bolunen2, bolunen3, bolunensayac;
-
     for(i=10; i<100; i++)
     {
-        bolunen1=0,bolunen2=0,bolunen3=0,bolunensayac=0;
-        for(j=i-1; j>0; j--)
+        int sayac=0, toplam=0, bolunen[3];
+        for(j=i-1; j>0 && sayac<3; j--)
         {
             if(i%j==0)
             {
-                if(bolunensayac==0) bolunen1=j;
-                else if (bolunensayac==1) bolunen2=j;
-                else if (bolunensayac==2) bolunen3=j;
-                else break;
-                bolunensayac++;
+                bolunen[sayac]=toplam+=j;
+                sayac++;
             }
         }
-        int toplam= bolunen1+bolunen2+bolunen3;
         if(toplam==i)
-        {
-            printf("%d sayisi kurallara uyuyor bolunen sayilar->\t%d\t%d\t%d\n",i,bolunen1,bolunen2,bolunen3);
-        }
+            printf("%d sayisi kurallara uyuyor bolunen sayilar->\t%d\t%d\t%d\n",i,bolunen[2],bolunen[1],bolunen[0]);
     }
-    
+
     getch();
-return 0;
+    return 0;
 }
