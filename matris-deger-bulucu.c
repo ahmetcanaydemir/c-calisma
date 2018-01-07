@@ -6,15 +6,15 @@ Matris değer bulucu
 
 char islem(char dizi[5][5], char karakter1, char karakter2)
 {
-    int i,j;
+	int i,j;
 	for(i=0;i<5;i++)
-    {
-        for(j=0;j<5;j++){
-            if(dizi[0][i]==karakter1 && dizi[0][j]==karakter2)
-                return dizi[i][j];
-        }
-    }
-    return '!' //Değer bulunmazsa ünlem değeri döndürecek
+	{
+		for(j=0;j<5;j++)
+		{
+			if(dizi[0][i]==karakter1 && dizi[0][j]==karakter2) return dizi[i][j];
+		}
+	}
+	return '!' //Değer bulunmazsa ünlem değeri döndürecek
 }
 int main()
 {
