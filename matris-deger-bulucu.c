@@ -18,14 +18,16 @@ char islem(char dizi[5][5], char karakter1, char karakter2)
 }
 int main()
 {
+	char karakter1, karakter2;
 	char dizi[5][5] = { { ' ','a','b','c','d'},
 			    { 'a','d','c','b','a' },
 			    { 'b','c','b','a','d' },
 			    { 'c','b','a','c','d' },
 			    { 'd','a','c','d','b' } };
-	char karakter1, karakter2;
+	
 	printf("harf gir:");
 	scanf("%c %c",&karakter1,&karakter2);
+	
 	printf("islem sonucu: %c\t",islem(dizi,karakter1,karakter2));
 
 	getch();
